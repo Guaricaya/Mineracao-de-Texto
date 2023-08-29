@@ -16,6 +16,7 @@ public class Main {
     arqtxt.getListaDeLexico();
     CruzadorDeString selecaoFinal = new CruzadorDeString(arqtxt.getListaDeLexico(),arquivo.getDataset());
     selecaoFinal.imprimirOrdenadoPorValor(arquivo.getDataset(), arqtxt.getListaDeLexico(), 20);
+  
     
   }
 }
